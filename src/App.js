@@ -32,6 +32,7 @@ function App() {
       <h1>Dictionary App</h1>
       <div>
         <input
+          type="text"
           placeholder="Search for a word"
           onChange={(e) => setInput(e.target.value)}
         />
